@@ -16,7 +16,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 items-start">
         <div class="flex flex-col justify-center items-center gap-2 md:mr-10">
           <label for="firstname">Enter firstname</label>
-          <input
+          <input required
             v-model="signUp.firstname"
             type="text"
             placeholder="first name"
@@ -24,7 +24,7 @@
           />
 
           <label for="lastname">Enter lastname</label>
-          <input
+          <input required
             v-model="signUp.lastname"
             type="text"
             placeholder="last name"
@@ -32,7 +32,7 @@
           />
 
           <label for="address">Enter address</label>
-          <input
+          <input required
             v-model="signUp.address"
             type="text"
             placeholder="1234 abc, alphabet"
@@ -40,7 +40,7 @@
           />
 
           <label for="state">Enter state</label>
-          <select
+          <select required
             v-model="signUp.state"
             name="state"
             id="state"
@@ -108,7 +108,7 @@
 
         <div class="flex flex-col justify-center items-center gap-2 md:ml-10">
           <label for="email">Enter email</label>
-          <input
+          <input required
             v-model="signUp.email"
             type="email"
             placeholder="abc@gmail.com"
@@ -116,7 +116,7 @@
           />
 
           <label for="password">Create password</label>
-          <input
+          <input required
             v-model="signUp.password"
             type="password"
             placeholder="*********"

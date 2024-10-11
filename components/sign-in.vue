@@ -9,14 +9,14 @@
     <br />
     <div class="flex flex-col justify-center items-center gap-2">
       <label for="email">Enter email</label>
-      <input
+      <input required
         v-model="login.email"
         type="email"
         placeholder="abc@gmaii.com"
         class="custom-input bg-black/50 backdrop-blur-md"
       />
       <label for="password">Enter password</label>
-      <input
+      <input required
         v-model="login.password"
         type="password"
         placeholder="*********"
@@ -30,7 +30,7 @@
       </div>
       <br />
 
-      <NuxtLink to="/dashboard">
+      <NuxtLink to="/">
         <button class="login-btn">continue</button>
       </NuxtLink>
     </div>
