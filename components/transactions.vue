@@ -7,7 +7,7 @@
     >
       <icon class="text-[40px]" name="uil:cloud-info" />
       <br />
-      Transaction history will appear here
+       History will appear here
     </h4>
   </div>
 </template>

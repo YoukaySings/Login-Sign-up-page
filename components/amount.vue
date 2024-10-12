@@ -10,7 +10,7 @@
       <div class="md:text-right mt-5 md:mt-0">
         <p>Available funds</p>
         <h2 class="text-[34px] font-bold text-[#f3f3f3]">
-          $89,500.<span class="text-gray-400 text-[24px]">00</span>
+          add price<span class="text-gray-400 text-[24px]">00</span>
         </h2>
       </div>
     </div>
@@ -25,7 +25,7 @@
           <icon class="text-[18px] text-red-600" name="uil:top-arrow-to-top" />
           <p v-if="sent">Sent</p>
         </div>
-        <h4>$132,903.00</h4>
+        <h4>add price</h4>
       </div>
 
       <div
@@ -37,7 +37,7 @@
           <icon class="text-[18px] text-green-600" name="uil:arrow-from-top" />
           <p v-if="received">Received</p>
         </div>
-        <h4>$222,403.00</h4>
+        <h4>add price</h4>
       </div>
 
       <div
@@ -49,7 +49,7 @@
           <icon class="text-[18px] text-blue-500" name="uil:money-bill-stack" />
           <p v-if="investment">Investment</p>
         </div>
-        <h4>$201,99.00</h4>
+        <h4>add price</h4>
       </div>
     </div>
   </div>
